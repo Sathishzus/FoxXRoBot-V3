@@ -26,10 +26,10 @@ from aiogram import types
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.types.input_file import InputFile
 from babel.dates import format_timedelta
-
-from DaisyX import OPERATORS, bot
 from DaisyX.decorator import register
 from DaisyX.services.redis import redis
+
+from DaisyX import OPERATORS, bot
 
 from . import LOADED_MODULES
 from .utils.connections import chat_connection

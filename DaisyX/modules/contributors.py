@@ -16,9 +16,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import github  # pyGithub
-from pyrogram import filters
-
 from DaisyX.services.pyrogram import pbot as client
+from pyrogram import filters
 
 
 @client.on_message(filters.command("contributors") & ~filters.edited)

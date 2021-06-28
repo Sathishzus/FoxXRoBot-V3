@@ -19,11 +19,11 @@
 
 import asyncio
 
+from DaisyX.decorator import register
+from DaisyX.services.telethon import tbot
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 
 from DaisyX import bot
-from DaisyX.decorator import register
-from DaisyX.services.telethon import tbot
 
 from .utils.language import get_strings_dec
 from .utils.notes import BUTTONS

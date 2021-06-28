@@ -2,10 +2,10 @@
 # Ported This Plugin here By Devil from wbb.
 import os
 
+from DaisyX.services.pyrogram import pbot as app
 from pyrogram import filters
 
 from DaisyX import OWNER_ID
-from DaisyX.services.pyrogram import pbot as app
 
 
 @app.on_message(filters.command("install") & filters.user(OWNER_ID))

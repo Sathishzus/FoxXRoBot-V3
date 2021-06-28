@@ -23,8 +23,8 @@ from contextlib import suppress
 from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.exceptions import MessageNotModified
-
 from DaisyX.decorator import register
+
 from DaisyX.modules.utils.disable import disableable_dec
 
 from . import MOD_HELP
@@ -43,12 +43,12 @@ def help_markup(modules):
         )
     return markup
 
+
 STICKERS = (
     "CAACAgIAAxkBAAEJ26dg1__1miVtd7vUtG5l5kJZoXRROgACXQADRA3PF8e-51zOGAI8HgQ",
     "CAACAgIAAxkBAAEJ26xg2AABH4__WCSUsrTHB0uQCv2N-E8AAlwAA0QNzxej4phC5yjsdB4E",
     "CAACAgIAAxkBAAEJ27Bg2AABQKxE5LY_uqITNyQgm2fHgEMAAmIAA0QNzxdnh6A9s22fdR4E",
 )
-
 
 
 @register(cmds="start", no_args=True, only_groups=True)
@@ -79,9 +79,7 @@ async def get_start_func(message, strings, edit=False):
     )
     buttons.add(
         InlineKeyboardButton(strings["btn_channel"], url="https://t.me/Foxxrobot"),
-        InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/FOXXBOTOFFICIALS"
-        ),
+        InlineKeyboardButton(strings["btn_group"], url="https://t.me/FOXXBOTOFFICIALS"),
     )
     buttons.add(
         InlineKeyboardButton(

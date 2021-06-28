@@ -23,11 +23,11 @@ from contextlib import suppress
 
 from aiogram.utils.exceptions import MessageNotModified
 from babel.dates import format_timedelta
-
-from DaisyX import BOT_ID, bot
 from DaisyX.decorator import register
 from DaisyX.services.redis import redis
 from DaisyX.services.telethon import tbot
+
+from DaisyX import BOT_ID, bot
 
 from .misc import customise_reason_finish, customise_reason_start
 from .utils.connections import chat_connection

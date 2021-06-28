@@ -16,10 +16,10 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+from DaisyX.services.pyrogram import pbot
 from pyrogram import filters
 
 from DaisyX.function.pluginhelpers import admins_only
-from DaisyX.services.pyrogram import pbot
 
 __HELP__ = """
 Classic filters are just like marie's filter system. If you still like that kind of filter system

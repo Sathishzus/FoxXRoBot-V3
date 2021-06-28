@@ -25,11 +25,11 @@ from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMa
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.deep_linking import get_start_link
 from aiogram.utils.exceptions import BotBlocked, CantInitiateConversation
-
-from DaisyX import bot
 from DaisyX.decorator import register
 from DaisyX.services.mongo import db
 from DaisyX.services.redis import redis
+
+from DaisyX import bot
 
 from .utils.connections import chat_connection, get_connection_data, set_connected_chat
 from .utils.language import get_strings_dec
