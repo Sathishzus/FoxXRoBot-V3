@@ -8,12 +8,6 @@ import nude
 from better_profanity import profanity
 from DaisyX.services.events import register
 from DaisyX.services.mongo import mongodb as db
-from DaisyX.services.sql.nsfw_watch_sql import (
-    add_nsfwatch,
-    get_all_nsfw_enabled_chat,
-    is_nsfwatch_indb,
-    rmnsfwatch,
-)
 from DaisyX.services.telethon import tbot
 from google_trans_new import google_translator
 from telethon import events
@@ -23,6 +17,12 @@ from DaisyX import BOT_ID
 
 # from RaVaN.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
 from DaisyX.function.telethonbasics import is_admin
+from DaisyX.services.sql.nsfw_watch_sql import (
+    add_nsfwatch,
+    get_all_nsfw_enabled_chat,
+    is_nsfwatch_indb,
+    rmnsfwatch,
+)
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
