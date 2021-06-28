@@ -15,9 +15,10 @@
 
 from contextlib import suppress
 
-from DaisyX.modules.utils.user_details import is_user_admin
 from DaisyX.services.mongo import db
 from DaisyX.utils.logger import log
+
+from DaisyX.modules.utils.user_details import is_user_admin
 
 DISABLABLE_COMMANDS = []
 
