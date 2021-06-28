@@ -20,12 +20,12 @@ import datetime
 import html
 
 from aiogram.dispatcher.middlewares import BaseMiddleware
-from DaisyX.decorator import register
-from DaisyX.utils.logger import log
 
 from DaisyX import dp
+from DaisyX.decorator import register
 from DaisyX.modules import LOADED_MODULES
 from DaisyX.services.mongo import db
+from DaisyX.utils.logger import log
 
 from .utils.connections import chat_connection
 from .utils.disable import disableable_dec

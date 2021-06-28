@@ -3,11 +3,11 @@ import sys
 from os import environ, execle, path, remove
 
 import heroku3
-from DaisyX.config import get_str_key
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
 from DaisyX import OWNER_ID
+from DaisyX.config import get_str_key
 from DaisyX.services.events import register
 from DaisyX.services.telethon import tbot as update
 

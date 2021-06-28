@@ -21,7 +21,6 @@ import html
 import re
 
 from DaisyX.decorator import register
-
 from DaisyX.services.mongo import db
 
 from .utils.disable import disableable_dec

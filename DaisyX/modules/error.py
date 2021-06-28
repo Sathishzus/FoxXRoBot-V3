@@ -21,11 +21,11 @@ import html
 import sys
 
 from aiogram.types import Update
-from DaisyX.utils.logger import log
 from redis.exceptions import RedisError
 
 from DaisyX import OWNER_ID, bot, dp
 from DaisyX.services.redis import redis
+from DaisyX.utils.logger import log
 
 SENT = []
 

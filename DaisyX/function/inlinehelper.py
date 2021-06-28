@@ -5,7 +5,6 @@ from time import time
 
 import aiohttp
 from aiohttp import ClientSession
-from DaisyX.config import get_str_key
 from googletrans import Translator
 from motor import version as mongover
 from pykeyboard import InlineKeyboard
@@ -21,6 +20,7 @@ from Python_ARQ import ARQ
 from search_engine_parser import GoogleSearch
 
 from DaisyX import BOT_USERNAME, OWNER_ID
+from DaisyX.config import get_str_key
 from DaisyX.function.pluginhelpers import convert_seconds_to_minutes as time_convert
 from DaisyX.function.pluginhelpers import fetch
 from DaisyX.services.pyrogram import pbot

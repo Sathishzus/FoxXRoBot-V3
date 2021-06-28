@@ -28,9 +28,9 @@ from aiogram.utils.deep_linking import get_start_link
 from aiogram.utils.exceptions import MessageNotModified
 from babel.dates import format_timedelta
 from bson.objectid import ObjectId
-from DaisyX.decorator import register
 
 from DaisyX import BOT_ID, bot
+from DaisyX.decorator import register
 from DaisyX.services.mongo import db
 from DaisyX.services.telethon import tbot
 

@@ -25,7 +25,6 @@ from io import BytesIO
 import requests
 from aiogram.types.input_file import InputFile
 from bs4 import BeautifulSoup as bs
-from DaisyX.decorator import register
 from PIL import Image
 from pyrogram import filters
 from telethon import *
@@ -39,6 +38,7 @@ from telethon.tl.types import (
 )
 
 from DaisyX import bot
+from DaisyX.decorator import register
 from DaisyX.services.events import register as Daisy
 from DaisyX.services.pyrogram import pbot
 from DaisyX.services.telethon import tbot

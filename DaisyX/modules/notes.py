@@ -31,11 +31,11 @@ from aiogram.utils.exceptions import (
     MessageNotModified,
 )
 from babel.dates import format_datetime
-from DaisyX.decorator import register
 from pymongo import ReplaceOne
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 
 from DaisyX import bot
+from DaisyX.decorator import register
 from DaisyX.services.mongo import db
 from DaisyX.services.redis import redis
 from DaisyX.services.telethon import tbot
