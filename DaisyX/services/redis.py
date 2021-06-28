@@ -16,9 +16,9 @@
 import sys
 
 import redis as redis_lib
+from DaisyX.config import get_str_key
 
 from DaisyX import log
-from DaisyX.config import get_str_key
 
 # Init Redis
 redis = redis_lib.Redis(

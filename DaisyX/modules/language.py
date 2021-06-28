@@ -23,6 +23,7 @@ from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMa
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.exceptions import MessageNotModified
 from DaisyX.decorator import register
+
 from DaisyX.services.mongo import db
 
 from .utils.language import (

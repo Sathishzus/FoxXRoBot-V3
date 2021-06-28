@@ -6,7 +6,6 @@ from time import time
 import aiohttp
 from aiohttp import ClientSession
 from DaisyX.config import get_str_key
-from DaisyX.services.pyrogram import pbot
 from googletrans import Translator
 from motor import version as mongover
 from pykeyboard import InlineKeyboard
@@ -24,6 +23,7 @@ from search_engine_parser import GoogleSearch
 from DaisyX import BOT_USERNAME, OWNER_ID
 from DaisyX.function.pluginhelpers import convert_seconds_to_minutes as time_convert
 from DaisyX.function.pluginhelpers import fetch
+from DaisyX.services.pyrogram import pbot
 
 ARQ_API = get_str_key("ARQ_API", required=True)
 ARQ_API_KEY = ARQ_API

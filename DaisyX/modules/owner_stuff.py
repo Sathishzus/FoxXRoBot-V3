@@ -25,12 +25,12 @@ import sys
 import rapidjson
 import requests
 from DaisyX.decorator import COMMANDS_ALIASES, REGISTRED_COMMANDS, register
-from DaisyX.services.mongo import db, mongodb
-from DaisyX.services.redis import redis
-from DaisyX.services.telethon import tbot
 
 from DaisyX import DAISY_VERSION, OWNER_ID, bot, dp
 from DaisyX.modules import LOADED_MODULES
+from DaisyX.services.mongo import db, mongodb
+from DaisyX.services.redis import redis
+from DaisyX.services.telethon import tbot
 
 from .utils.covert import convert_size
 from .utils.language import get_strings_dec

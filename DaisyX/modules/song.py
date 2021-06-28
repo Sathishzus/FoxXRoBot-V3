@@ -27,7 +27,6 @@ import aiofiles
 import aiohttp
 import wget
 import youtube_dl
-from DaisyX.services.pyrogram import pbot as Client
 from pyrogram import filters
 from pyrogram.types import Message
 from youtube_dl import YoutubeDL
@@ -35,6 +34,7 @@ from youtubesearchpython import SearchVideos
 
 from DaisyX.function.inlinehelper import arq
 from DaisyX.function.pluginhelpers import get_text, progress
+from DaisyX.services.pyrogram import pbot as Client
 
 dl_limit = 0
 

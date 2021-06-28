@@ -21,10 +21,11 @@ import re
 
 import bs4
 import requests
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
 from telethon import types
 from telethon.tl import functions
+
+from DaisyX.services.events import register
+from DaisyX.services.telethon import tbot
 
 langi = "en"
 

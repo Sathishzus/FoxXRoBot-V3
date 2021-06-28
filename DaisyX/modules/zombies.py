@@ -18,13 +18,13 @@
 
 from asyncio import sleep
 
-from DaisyX.services.telethon import tbot as client
 from telethon import events
 from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 
 from DaisyX import OWNER_ID
+from DaisyX.services.telethon import tbot as client
 
 # =================== CONSTANT ===================
 

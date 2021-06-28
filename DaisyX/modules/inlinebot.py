@@ -19,7 +19,6 @@ import requests
 from bs4 import BeautifulSoup
 from countryinfo import CountryInfo
 from DaisyX.config import get_str_key
-from DaisyX.services.pyrogram import pbot as app
 from faker import Faker
 from faker.providers import internet
 from PyDictionary import PyDictionary
@@ -37,6 +36,7 @@ from youtubesearchpython import VideosSearch
 
 from DaisyX.function.inlinehelper import *
 from DaisyX.function.pluginhelpers import fetch, json_prettify
+from DaisyX.services.pyrogram import pbot as app
 
 OPENWEATHERMAP_ID = get_str_key("OPENWEATHERMAP_ID", "")
 TIME_API_KEY = get_str_key("TIME_API_KEY", required=False)

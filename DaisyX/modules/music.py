@@ -21,9 +21,10 @@ import os
 
 import lyricsgenius
 from DaisyX.config import get_str_key
-from DaisyX.services.pyrogram import pbot
 from pyrogram import filters
 from tswift import Song
+
+from DaisyX.services.pyrogram import pbot
 
 GENIUS = get_str_key("GENIUS_API_TOKEN", None)
 

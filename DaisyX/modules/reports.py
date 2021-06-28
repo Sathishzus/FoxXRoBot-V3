@@ -18,6 +18,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from DaisyX.decorator import register
+
 from DaisyX.services.mongo import db
 
 from .utils.connections import chat_connection

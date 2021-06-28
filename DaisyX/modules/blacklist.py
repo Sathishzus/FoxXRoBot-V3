@@ -20,12 +20,12 @@
 import html
 
 import tldextract
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
 from telethon import events, types
 from telethon.tl import functions
 
 import DaisyX.services.sql.urlblacklist_sql as urlsql
+from DaisyX.services.events import register
+from DaisyX.services.telethon import tbot
 
 
 async def can_change_info(message):

@@ -15,12 +15,12 @@
 import os
 
 import requests
-from DaisyX.services.telethon import tbot
 from faker import Faker
 from faker.providers import internet
 from telethon import events
 
 from DaisyX.function.telethonbasics import is_admin
+from DaisyX.services.telethon import tbot
 
 
 @tbot.on(events.NewMessage(pattern="/fakegen$"))

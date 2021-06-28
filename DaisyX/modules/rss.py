@@ -10,7 +10,6 @@ import asyncio
 
 import feedparser
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from DaisyX.services.pyrogram import pbot
 from pyrogram import filters
 
 from DaisyX.db.mongo_helpers.rss_db import (
@@ -25,6 +24,7 @@ from DaisyX.db.mongo_helpers.rss_db import (
     update_rss,
 )
 from DaisyX.function.pluginhelpers import admins_only, edit_or_reply, get_text
+from DaisyX.services.pyrogram import pbot
 
 
 @pbot.on_message(filters.command("addrss") & ~filters.edited & ~filters.bot)
